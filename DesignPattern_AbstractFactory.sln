@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern_FactoryMethod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern_Command_TemplateMethod_Iterator", "DesignPattern_Command_TemplateMethod_Iterator\DesignPattern_Command_TemplateMethod_Iterator.csproj", "{18DFC3DA-A5F7-472D-9EE4-230F7E35041A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern_Builder_Composite_Decorator", "DesignPattern_Builder_Composite_Decorator\DesignPattern_Builder_Composite_Decorator.csproj", "{B83689C0-DD9D-45B6-915A-0644C46EFEB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{18DFC3DA-A5F7-472D-9EE4-230F7E35041A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18DFC3DA-A5F7-472D-9EE4-230F7E35041A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18DFC3DA-A5F7-472D-9EE4-230F7E35041A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83689C0-DD9D-45B6-915A-0644C46EFEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83689C0-DD9D-45B6-915A-0644C46EFEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83689C0-DD9D-45B6-915A-0644C46EFEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83689C0-DD9D-45B6-915A-0644C46EFEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
