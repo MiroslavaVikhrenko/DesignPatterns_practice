@@ -1,4 +1,7 @@
-﻿namespace DesignPattern_Command_State
+﻿using DesignPattern_Command_State.Commands;
+using DesignPattern_Command_State.Interfaces;
+
+namespace DesignPattern_Command_State
 {
     /*
      Реализовать систему управления телевизором, которая будет использовать два паттерна: 
@@ -24,7 +27,25 @@ State: для представления различных состояний �
     {
         static void Main(string[] args)
         {
-            
+            var tv = new Television();
+
+            var commands = new ICommand[]
+            {
+                new TurnOnCommand(tv),
+                new ChangeChannelCommand(tv, 5),
+                new IncreaseVolumeCommand(tv),
+                new MuteCommand(tv),
+                new IncreaseVolumeCommand(tv),
+                new UnmuteCommand(tv),
+                new DecreaseVolumeCommand(tv),
+                new TurnOffCommand(tv)
+            };
+
+            foreach (var command in commands)
+            {
+                command.Execute();
+                Console.WriteLine();
+            }
         }
     }
 }
