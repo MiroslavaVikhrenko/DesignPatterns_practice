@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern_Builder_Compo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern_TM_State_Iterator_Interpretor_COR_Mediator", "DesignPattern_TM_State_Iterator_Interpretor_COR_Mediator\DesignPattern_TM_State_Iterator_Interpretor_COR_Mediator.csproj", "{BEE2A5EB-31AE-4EB6-BDC8-B162260730F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern_Memento_Command_ChainOfResponsibility", "DesignPattern_Memento_Command_ChainOfResponsibility\DesignPattern_Memento_Command_ChainOfResponsibility.csproj", "{9F9EDEAE-8315-446F-B85A-FBD52B34F1D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{BEE2A5EB-31AE-4EB6-BDC8-B162260730F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEE2A5EB-31AE-4EB6-BDC8-B162260730F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEE2A5EB-31AE-4EB6-BDC8-B162260730F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9EDEAE-8315-446F-B85A-FBD52B34F1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9EDEAE-8315-446F-B85A-FBD52B34F1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9EDEAE-8315-446F-B85A-FBD52B34F1D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9EDEAE-8315-446F-B85A-FBD52B34F1D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
